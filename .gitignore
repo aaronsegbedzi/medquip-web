@@ -1,0 +1,31 @@
+framework/vendor/
+framework/node_modules/
+framework/npm-debug.log
+framework/yarn-error.log
+
+# Laravel 4 specific
+framework/bootstrap/compiled.php
+framework/app/storage/
+
+# Laravel 5 & Lumen specific
+framework/public/storage
+framework/public/hot
+
+# Laravel 5 & Lumen specific with changed public path
+framework/public_html/storage
+framework/public_html/hot
+
+framework/storage/fonts/*
+framework/storage/*.key
+framework/storage/font/*
+.env
+framework/Homestead.yaml
+framework/Homestead.json
+/.vagrant
+.phpunit.result.cache
+
+uploads/qrcodes/*
+framework/bootstrap/cache/
+framework/bootstrap/cache/packages.php
+framework/bootstrap/cache/services.php
+framework/resources/views/layouts/admin.blade.php
